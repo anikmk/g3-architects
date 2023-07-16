@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared styles */
+.btn-primary{
+    color: #fff;
+    background-color: #FF900E;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 1.25rem 1.50rem;
+    margin: 2.5rem 0rem;
+    border: none;
+}
+.text-style{
+    color: #727272;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+.section-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.main{
+    width: 75%;
+    margin: 5rem auto;
+}
+/* header section styles */
+.header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 2.5rem 8.5rem;
+}
+.logo > h1{
+    font-size: 2rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manu-list ul{
+    list-style-type: none;
+}
+.manu-list ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 0rem 1.8rem;
+}
+.manu-list ul li a:hover{
+    color: #131313;
+}
+/* banner section styles */
+.banner-section{
+    text-align: center;
+    padding: 7rem 0rem 2rem 0rem;
+
+}
+.banner-title{
+    font-size: 3.5rem;
+    color:#131313;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.banner-description{
+    color:#727272;
+    font-size: 1rem;
+}
+.banner-section img {
+    width: 100%;
+}
+/* features section styles */
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-right: 4rem;
+}
+.features-img img{
+    width: 100%;
+}
+
+.quick{
+    color: #727272;
+}
+.features{
+    color: #FF900E;
+}
